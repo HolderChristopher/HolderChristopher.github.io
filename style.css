@@ -4,13 +4,25 @@
     font-family: 'Roboto', sans-serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
-    url(images/banner.jpg);
+    url(images/ProfilePhoto.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.header h1{font-size: 40px;
+}
+.header_other{    
+    min-height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(images/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
 }
 nav{
     display: flex;
@@ -66,6 +78,14 @@ nav{
     margin: 40px 0 40px;
     font-size: 18px;
     color: #fff;
+}
+.main_text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.main_text h1{font-size: 40px;
 }
 
 @media(max-width: 700px){
